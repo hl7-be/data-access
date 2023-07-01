@@ -131,7 +131,8 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 pages:
   index.xml:
     title: Home
-#  guidance.md:
+  access-control.md: 
+      title: Access Control
   changes.xml:
   downloads.xml:
 # The ImplementationGuide resource defines several other properties
@@ -157,11 +158,8 @@ pages:
 # include a `menu.xml` file in input/includes.
 menu:
   Home: index.html
-#  Guidance: guidance.html
-  Artifacts:
-    Profiles: artifacts.html#2
-    Extensions: artifacts.html#3
-    Value Sets: artifacts.html#4
+  Functional: access-control.md
+  Artifacts: artifacts.html
   Downloads: downloads.html
   Changes: changes.html
 #  History: ../history.html
