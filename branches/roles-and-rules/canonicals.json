@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "data-access-categories",
+    "type" : "CodeSystem",
+    "url" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+    "version" : "1.0.0",
+    "name" : "DataAccessCategories"
+  },
+  {
+    "id" : "data-access-roles",
+    "type" : "CodeSystem",
+    "url" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+    "version" : "1.0.0",
+    "name" : "DataAccessRoles"
+  },
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example/ImplementationGuide/my-ig",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "data-access-categories-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/data-access-categories-vs",
+    "version" : "1.0.0",
+    "name" : "DataAccessCategoriesVS"
+  },
+  {
+    "id" : "data-read-roles-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/data-read-roles-vs",
+    "version" : "1.0.0",
+    "name" : "DataReadRolesVS"
+  }
+]

@@ -1,0 +1,7 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-my-ig.json	3751	-	0	0	0	0	0	0	8	84	0	0	0	0	0	0	0	1	0	0	95	59	0	0	0	2	0	1
+fsh-generated/resources/CodeSystem-data-access-roles.json	4181	29	0	0	0	1	0	0	0	15	0	0	0	0	0	0	0	0	0	0	27	2487	0	1	0	1	0	0
+fsh-generated/resources/ValueSet-data-access-categories-vs.json	512	13	0	0	0	0	0	0	0	237	0	0	0	0	0	0	0	0	0	0	6	6024	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-data-access-categories.json	8011	19	1	0	0	0	0	0	2	19	0	0	0	0	0	0	0	0	0	0	44	147	0	0	0	2	0	0
+fsh-generated/resources/ValueSet-data-read-roles-vs.json	458	10	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	6	132	0	0	0	0	0	0
+fsh-generated/resources/Permission-AR1.json	814	13	0	0	0	0	0	0	0	181	0	0	0	0	0	0	0	0	0	0	5	14	0	0	0	0	0	0

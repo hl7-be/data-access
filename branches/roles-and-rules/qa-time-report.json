@@ -1,0 +1,267 @@
+{
+  "date" : "Mon, 03 Jul, 2023 17:12:52 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-my-ig.json",
+      "size" : 3751,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 53
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 84
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 810
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 59
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 66,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-data-access-roles.json",
+      "size" : 4181,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 45,
+          "length" : 29
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 46,
+          "length" : 459
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 2487
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-data-access-categories-vs.json",
+      "size" : 512,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 45,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 237
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 6024
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-data-access-categories.json",
+      "size" : 8011,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 45,
+          "length" : 19
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 15
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 46,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 19
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 48
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 44
+        },
+        {
+          "activity" : "generate2",
+          "start" : 58,
+          "length" : 147
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 63,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-data-read-roles-vs.json",
+      "size" : 458,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 45,
+          "length" : 10
+        },
+        {
+          "activity" : "scan",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 59,
+          "length" : 132
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Permission-AR1.json",
+      "size" : 814,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 45,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 181
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 5
+        },
+        {
+          "activity" : "generate2",
+          "start" : 59,
+          "length" : 14
+        }
+      ]
+    }
+  ]
+}

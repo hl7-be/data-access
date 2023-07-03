@@ -1,0 +1,22 @@
+﻿/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json - the canonical URL (http://example.com/fhir/example/CodeSystem/data-access-categories) does not match the URL (http://ehealth.hl7.org/CodeSystem/data-access-categories) (INVALID)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 1, col 15396, Warning - Rule csd-2: 'If there is an explicit hierarchy, a hierarchyMeaning should be provided' Failed (INVARIANT)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 0, col 0, Warning - HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 0, col 0, Warning - HL7 Defined CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 1, col 15396, Error - The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 1, col 15396, Error - The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json: line 0, col 0, Error - URL Mismatch http://example.com/fhir/example/CodeSystem/data-access-categories vs http://ehealth.hl7.org/CodeSystem/data-access-categories (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json - the canonical URL (http://example.com/fhir/example/CodeSystem/data-access-roles) does not match the URL (http://ehealth.hl7.org/CodeSystem/data-access-roles) (INVALID)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json: line 0, col 0, Warning - HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json: line 1, col 8907, Error - The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json: line 1, col 8907, Error - The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json: line 0, col 0, Error - URL Mismatch http://example.com/fhir/example/CodeSystem/data-access-roles vs http://ehealth.hl7.org/CodeSystem/data-access-roles (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/Permission-AR1.json: line 12, col 14, Warning - A code with no system has no defined meaning. A system should be provided (CODEINVALID)
+/github/workspace/fsh-generated/resources/ValueSet-data-access-categories-vs.json: line 1, col 1159, Warning - The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile (REQUIRED)
+/github/workspace/fsh-generated/resources/ValueSet-data-read-roles-vs.json: line 1, col 1095, Warning - The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile (REQUIRED)
+
+ExampleIG : Validation Results
+=========================================
+
+err = 8, warn = 11, info = 0
+IG Publisher Version: 1.3.22
+Generated Mon Jul 03 17:13:13 UTC 2023. FHIR version 5.0.0 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)

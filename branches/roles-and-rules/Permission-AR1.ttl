@@ -1,0 +1,41 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Permission/AR1> a fhir:Permission ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AR1"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Permission</b><a name=\"AR1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Permission &quot;AR1&quot; </p></div><p><b>status</b>: active</p><p><b>combining</b>: deny-unless-permit</p><blockquote><p><b>rule</b></p><p><b>type</b>: permit</p><h3>Data</h3><table class=\"grid\"><tr><td>-</td><td><b>Security</b></td></tr><tr><td>*</td><td>lab-result (Details: [not stated] code lab-result = 'lab-result', stated as 'null')</td></tr></table><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td><td><b>Action</b></td></tr><tr><td>*</td><td><span/></td><td>Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:combining [ fhir:v "deny-unless-permit"] ; # 
+  fhir:rule ( [
+     fhir:type [ fhir:v "permit" ] ;
+     fhir:data ( [
+       fhir:security ( [
+         fhir:code [ fhir:v "lab-result" ]
+       ] )
+     ] ) ;
+     fhir:activity ( [
+       fhir:actor ( [
+         fhir:identifier [
+           fhir:system [ fhir:v "http://matrix.rl/roles"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "00001NurseRole" ]
+         ]
+       ] ) ;
+       fhir:action ( [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/consentaction"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "access" ]
+         ] )
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

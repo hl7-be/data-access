@@ -1,0 +1,75 @@
+﻿ExampleIG : Validation Results
+=========================================
+
+err = 8, warn = 11, info = 0
+IG Publisher Version: 1.3.22
+Generated Mon Jul 03 17:13:13 UTC 2023. FHIR version 5.0.0 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 35 / 4 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-data-access-categories : 4 / 3 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-data-access-roles : 4 / 1 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Permission-AR1 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-data-access-categories-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-data-read-roles-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Permission/AR1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/CodeSystem-data-access-categories-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-categories.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-categories.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-categories.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-categories.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-categories.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-roles-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-roles.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-roles.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-roles.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-roles.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-data-access-roles.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/Permission-AR1.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/Permission-AR1.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/Permission-AR1.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/Permission-AR1.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/Permission-AR1.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-access-categories-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-access-categories-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-access-categories-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-access-categories-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-access-categories-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-access-categories-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-read-roles-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-read-roles-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 119, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-read-roles-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-read-roles-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-read-roles-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-data-read-roles-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 117, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/access-control.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 115, column 6: The link 'access-control.md' for "Functional" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-data-access-categories.json ==
+ERROR: CodeSystem.where(url = 'http://ehealth.hl7.org/CodeSystem/data-access-categories'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-data-access-categories.json - the canonical URL (http://example.com/fhir/example/CodeSystem/data-access-categories) does not match the URL (http://ehealth.hl7.org/CodeSystem/data-access-categories)
+WARNING: CodeSystem/data-access-categories: CodeSystem: Rule csd-2: 'If there is an explicit hierarchy, a hierarchyMeaning should be provided' Failed
+WARNING: CodeSystem/data-access-categories: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/data-access-categories: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+ERROR: CodeSystem/data-access-categories: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/data-access-categories: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-data-access-categories: URL Mismatch http://example.com/fhir/example/CodeSystem/data-access-categories vs http://ehealth.hl7.org/CodeSystem/data-access-categories
+== fsh-generated/resources/CodeSystem-data-access-roles.json ==
+ERROR: CodeSystem.where(url = 'http://ehealth.hl7.org/CodeSystem/data-access-roles'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-data-access-roles.json - the canonical URL (http://example.com/fhir/example/CodeSystem/data-access-roles) does not match the URL (http://ehealth.hl7.org/CodeSystem/data-access-roles)
+WARNING: CodeSystem/data-access-roles: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: CodeSystem/data-access-roles: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: CodeSystem/data-access-roles: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-data-access-roles: URL Mismatch http://example.com/fhir/example/CodeSystem/data-access-roles vs http://ehealth.hl7.org/CodeSystem/data-access-roles
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+== fsh-generated/resources/Permission-AR1.json ==
+WARNING: Permission/AR1: Permission.rule[0].data[0].security[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/ValueSet-data-access-categories-vs.json ==
+WARNING: ValueSet/data-access-categories-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-data-read-roles-vs.json ==
+WARNING: ValueSet/data-read-roles-vs: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
