@@ -4,7 +4,10 @@ skinparam linetype polyline
 hide circle
 hide stereotype
 allow_mixing
-'!pragma layout smetana
+skinparam linetype ortho
+<style>
+rectangle {LineColor transparent}
+</style>
 
 skinparam class<<MD>> {
  BorderColor DarkSlateGray
@@ -18,26 +21,10 @@ skinparam class<<TM>> {
  HeaderBackgroundColor SkyBlue
 }
 
-class "**Data Categories**" as DC<<TM>> {
-|_ summary
-  |_ contact-info
-'  |_ name
-'  |_ address
-'  |_ contact-persons
-'  |_ gmf-holder
-'  |_ healthcare-professionals
-  |_ adverse-drug-reaction   
-  |_ allergies
-  |_ social-risks
-  |_ risks
-  |_ problems
-  |_ treatments
-  |_ patient-will
-|_ medication-scheme
-    }
 
+Package "Specification" as S {
 
-
+rectangle {
 class "**Roles**" as RR<<TM>> {
 |_ patient
 |_ physician
@@ -65,15 +52,73 @@ class "**Roles**" as RR<<TM>> {
 '|_ podologist
 '|_ dental-hygienist
 }
+}
 
-cloud {
+rectangle {
 Package "**Access Rules**" as AR {
-file Permissions
+file "Permissions" as P
 }
 }
 
-RR -r- AR : "                             " 
-AR -r- DC : "                             "
+rectangle {
+class "**Data Categories**" as DC<<TM>> {
+|_ summary
+  |_ contact-info
+'  |_ name
+'  |_ address
+'  |_ contact-persons
+'  |_ gmf-holder
+'  |_ healthcare-professionals
+  |_ adverse-drug-reaction   
+  |_ allergies
+  |_ social-risks
+  |_ risks
+  |_ problems
+  |_ treatments
+  |_ patient-will
+|_ medication-scheme
+    }
+}
+RR -r[hidden]- AR : "               " 
+AR -r[hidden]- DC : "               "
+AR -r[hidden]- P 
+'DC -l[hidden]-> AR
+
+}
+
+
+
+
+node "Implementation" as I {
+
+rectangle " " as D1 {
+  circle "Request" as Req
+}
+
+rectangle " " as D2{
+component "Access Control" as AC
+}
+
+rectangle " " as D3 {
+  database "DB" as DB
+}
+
+Req -r-> AC : "  "
+AC -r-> DB : "   "
+
+}
+
+
+D1 -r[hidden]- D2
+D2 -r[hidden]- D2
+
+
+'RR -d[hidden]- I 
+
+DC .d. DB
+RR .d. Req
+P -d-> AC
+
 
 
 
