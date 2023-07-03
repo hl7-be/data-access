@@ -21,3 +21,4 @@ jobs:
   # This workflow contains a single job called "build"
   call_build: 
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@master
+    
