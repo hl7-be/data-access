@@ -2,7 +2,7 @@ CodeSystem: DataAccessRoles
 Id:         data-access-roles
 Title:     "Data Access Roles"
 Description: "Data Access roles - the roles that are associated with authorization to consult the data"
-* ^url =  http://ehealth.hl7.org/CodeSystem/data-access-roles
+* ^url =  "http://ehealth.hl7.org/CodeSystem/data-access-roles"
 
 * #patient "Patient" "A person receiving healthcare services"
 * #physician "Physician" "A medical doctor"

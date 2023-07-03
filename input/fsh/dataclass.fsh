@@ -2,7 +2,7 @@ CodeSystem: DataAccessCategories
 Id:         data-access-categories
 Title:     "Data Access categories"
 Description: "Data Access categories - the rolestypes of data that are associated with specifica authorization rules"
-* ^url =  http://ehealth.hl7.org/CodeSystem/data-access-categories
+* ^url =  "http://ehealth.hl7.org/CodeSystem/data-access-categories"
 
 * #summary "Summary" "Patient Summary"
   * #sm-name "Name" "The patient's name"
