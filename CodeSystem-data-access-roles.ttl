@@ -1,0 +1,152 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/data-access-roles> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "data-access-roles"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehealth.hl7.org/CodeSystem/data-access-roles</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">patient<a name=\"data-access-roles-patient\"> </a></td><td>Patient</td><td>A person receiving healthcare services</td></tr><tr><td style=\"white-space:nowrap\">physician<a name=\"data-access-roles-physician\"> </a></td><td>Physician</td><td>A medical doctor</td></tr><tr><td style=\"white-space:nowrap\">nurse<a name=\"data-access-roles-nurse\"> </a></td><td>Nurse</td><td>A healthcare professional responsible for patient care</td></tr><tr><td style=\"white-space:nowrap\">psychiatric-nurse<a name=\"data-access-roles-psychiatric-nurse\"> </a></td><td>Psychiatric Nurse</td><td>A nurse specialized in psychiatric care</td></tr><tr><td style=\"white-space:nowrap\">practical-nurse<a name=\"data-access-roles-practical-nurse\"> </a></td><td>Practical Nurse</td><td>A nurse responsible for practical patient care</td></tr><tr><td style=\"white-space:nowrap\">midwife<a name=\"data-access-roles-midwife\"> </a></td><td>Midwife</td><td>A healthcare professional specializing in childbirth</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-office<a name=\"data-access-roles-pharmacist-office\"> </a></td><td>Pharmacist in Office</td><td>A pharmacist working in an office setting</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-hospital<a name=\"data-access-roles-pharmacist-hospital\"> </a></td><td>Pharmacist in Hospital</td><td>A pharmacist working in a hospital setting</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-clinical-biologist<a name=\"data-access-roles-pharmacist-clinical-biologist\"> </a></td><td>Pharmacist Clinical Biologist</td><td>A pharmacist specializing in clinical biology</td></tr><tr><td style=\"white-space:nowrap\">dentist<a name=\"data-access-roles-dentist\"> </a></td><td>Dentist</td><td>A healthcare professional specializing in dental care</td></tr><tr><td style=\"white-space:nowrap\">physiotherapist<a name=\"data-access-roles-physiotherapist\"> </a></td><td>Physiotherapist</td><td>A healthcare professional providing physical therapy</td></tr><tr><td style=\"white-space:nowrap\">clinical-psychologist<a name=\"data-access-roles-clinical-psychologist\"> </a></td><td>Clinical Psychologist</td><td>A psychologist providing clinical services</td></tr><tr><td style=\"white-space:nowrap\">clinical-orthopedagogist<a name=\"data-access-roles-clinical-orthopedagogist\"> </a></td><td>Clinical Orthopedagogist</td><td>A professional specializing in clinical orthopedagogy</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-technical-assistant<a name=\"data-access-roles-pharmacist-technical-assistant\"> </a></td><td>Pharmacist Technical Assistant</td><td>An assistant to a pharmacist in technical roles</td></tr><tr><td style=\"white-space:nowrap\">audiologist<a name=\"data-access-roles-audiologist\"> </a></td><td>Audiologist</td><td>A healthcare professional specializing in hearing and balance disorders</td></tr><tr><td style=\"white-space:nowrap\">audicien<a name=\"data-access-roles-audicien\"> </a></td><td>Audicien</td><td>A professional specializing in hearing aids</td></tr><tr><td style=\"white-space:nowrap\">truss-maker<a name=\"data-access-roles-truss-maker\"> </a></td><td>Truss Maker</td><td>A specialist in manufacturing trusses</td></tr><tr><td style=\"white-space:nowrap\">dietician<a name=\"data-access-roles-dietician\"> </a></td><td>Dietician</td><td>A healthcare professional specializing in nutrition and dietetics</td></tr><tr><td style=\"white-space:nowrap\">occupational-therapist<a name=\"data-access-roles-occupational-therapist\"> </a></td><td>Occupational Therapist</td><td>A healthcare professional providing occupational therapy</td></tr><tr><td style=\"white-space:nowrap\">lab-technologist<a name=\"data-access-roles-lab-technologist\"> </a></td><td>Lab Technologist</td><td>A technologist working in a laboratory setting</td></tr><tr><td style=\"white-space:nowrap\">logopedist<a name=\"data-access-roles-logopedist\"> </a></td><td>Logopedist</td><td>A healthcare professional specializing in speech therapy</td></tr><tr><td style=\"white-space:nowrap\">orthopedist<a name=\"data-access-roles-orthopedist\"> </a></td><td>Orthopedist</td><td>A medical doctor specializing in orthopedic care</td></tr><tr><td style=\"white-space:nowrap\">podologist<a name=\"data-access-roles-podologist\"> </a></td><td>Podologist</td><td>A healthcare professional specializing in foot care</td></tr><tr><td style=\"white-space:nowrap\">dental-hygienist<a name=\"data-access-roles-dental-hygienist\"> </a></td><td>Dental Hygienist</td><td>A dental professional specializing in oral hygiene</td></tr><tr><td style=\"white-space:nowrap\">imaging-technologist<a name=\"data-access-roles-imaging-technologist\"> </a></td><td>Imaging Technologist</td><td>A technologist specializing in medical imaging</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehealth.hl7.org/CodeSystem/data-access-roles"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "DataAccessRoles"] ; # 
+  fhir:title [ fhir:v "Data Access Roles"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-03T17:12:52+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Data Access roles - the roles that are associated with authorization to consult the data"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "25"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "patient" ] ;
+     fhir:display [ fhir:v "Patient" ] ;
+     fhir:definition [ fhir:v "A person receiving healthcare services" ]
+  ] [
+     fhir:code [ fhir:v "physician" ] ;
+     fhir:display [ fhir:v "Physician" ] ;
+     fhir:definition [ fhir:v "A medical doctor" ]
+  ] [
+     fhir:code [ fhir:v "nurse" ] ;
+     fhir:display [ fhir:v "Nurse" ] ;
+     fhir:definition [ fhir:v "A healthcare professional responsible for patient care" ]
+  ] [
+     fhir:code [ fhir:v "psychiatric-nurse" ] ;
+     fhir:display [ fhir:v "Psychiatric Nurse" ] ;
+     fhir:definition [ fhir:v "A nurse specialized in psychiatric care" ]
+  ] [
+     fhir:code [ fhir:v "practical-nurse" ] ;
+     fhir:display [ fhir:v "Practical Nurse" ] ;
+     fhir:definition [ fhir:v "A nurse responsible for practical patient care" ]
+  ] [
+     fhir:code [ fhir:v "midwife" ] ;
+     fhir:display [ fhir:v "Midwife" ] ;
+     fhir:definition [ fhir:v "A healthcare professional specializing in childbirth" ]
+  ] [
+     fhir:code [ fhir:v "pharmacist-office" ] ;
+     fhir:display [ fhir:v "Pharmacist in Office" ] ;
+     fhir:definition [ fhir:v "A pharmacist working in an office setting" ]
+  ] [
+     fhir:code [ fhir:v "pharmacist-hospital" ] ;
+     fhir:display [ fhir:v "Pharmacist in Hospital" ] ;
+     fhir:definition [ fhir:v "A pharmacist working in a hospital setting" ]
+  ] [
+     fhir:code [ fhir:v "pharmacist-clinical-biologist" ] ;
+     fhir:display [ fhir:v "Pharmacist Clinical Biologist" ] ;
+     fhir:definition [ fhir:v "A pharmacist specializing in clinical biology" ]
+  ] [
+     fhir:code [ fhir:v "dentist" ] ;
+     fhir:display [ fhir:v "Dentist" ] ;
+     fhir:definition [ fhir:v "A healthcare professional specializing in dental care" ]
+  ] [
+     fhir:code [ fhir:v "physiotherapist" ] ;
+     fhir:display [ fhir:v "Physiotherapist" ] ;
+     fhir:definition [ fhir:v "A healthcare professional providing physical therapy" ]
+  ] [
+     fhir:code [ fhir:v "clinical-psychologist" ] ;
+     fhir:display [ fhir:v "Clinical Psychologist" ] ;
+     fhir:definition [ fhir:v "A psychologist providing clinical services" ]
+  ] [
+     fhir:code [ fhir:v "clinical-orthopedagogist" ] ;
+     fhir:display [ fhir:v "Clinical Orthopedagogist" ] ;
+     fhir:definition [ fhir:v "A professional specializing in clinical orthopedagogy" ]
+  ] [
+     fhir:code [ fhir:v "pharmacist-technical-assistant" ] ;
+     fhir:display [ fhir:v "Pharmacist Technical Assistant" ] ;
+     fhir:definition [ fhir:v "An assistant to a pharmacist in technical roles" ]
+  ] [
+     fhir:code [ fhir:v "audiologist" ] ;
+     fhir:display [ fhir:v "Audiologist" ] ;
+     fhir:definition [ fhir:v "A healthcare professional specializing in hearing and balance disorders" ]
+  ] [
+     fhir:code [ fhir:v "audicien" ] ;
+     fhir:display [ fhir:v "Audicien" ] ;
+     fhir:definition [ fhir:v "A professional specializing in hearing aids" ]
+  ] [
+     fhir:code [ fhir:v "truss-maker" ] ;
+     fhir:display [ fhir:v "Truss Maker" ] ;
+     fhir:definition [ fhir:v "A specialist in manufacturing trusses" ]
+  ] [
+     fhir:code [ fhir:v "dietician" ] ;
+     fhir:display [ fhir:v "Dietician" ] ;
+     fhir:definition [ fhir:v "A healthcare professional specializing in nutrition and dietetics" ]
+  ] [
+     fhir:code [ fhir:v "occupational-therapist" ] ;
+     fhir:display [ fhir:v "Occupational Therapist" ] ;
+     fhir:definition [ fhir:v "A healthcare professional providing occupational therapy" ]
+  ] [
+     fhir:code [ fhir:v "lab-technologist" ] ;
+     fhir:display [ fhir:v "Lab Technologist" ] ;
+     fhir:definition [ fhir:v "A technologist working in a laboratory setting" ]
+  ] [
+     fhir:code [ fhir:v "logopedist" ] ;
+     fhir:display [ fhir:v "Logopedist" ] ;
+     fhir:definition [ fhir:v "A healthcare professional specializing in speech therapy" ]
+  ] [
+     fhir:code [ fhir:v "orthopedist" ] ;
+     fhir:display [ fhir:v "Orthopedist" ] ;
+     fhir:definition [ fhir:v "A medical doctor specializing in orthopedic care" ]
+  ] [
+     fhir:code [ fhir:v "podologist" ] ;
+     fhir:display [ fhir:v "Podologist" ] ;
+     fhir:definition [ fhir:v "A healthcare professional specializing in foot care" ]
+  ] [
+     fhir:code [ fhir:v "dental-hygienist" ] ;
+     fhir:display [ fhir:v "Dental Hygienist" ] ;
+     fhir:definition [ fhir:v "A dental professional specializing in oral hygiene" ]
+  ] [
+     fhir:code [ fhir:v "imaging-technologist" ] ;
+     fhir:display [ fhir:v "Imaging Technologist" ] ;
+     fhir:definition [ fhir:v "A technologist specializing in medical imaging" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
