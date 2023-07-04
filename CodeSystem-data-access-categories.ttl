@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DataAccessCategories"] ; # 
   fhir:title [ fhir:v "Data Access categories"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-07-03T17:12:52+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-04T21:22:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "My Organization"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "My Organization" ] ;
