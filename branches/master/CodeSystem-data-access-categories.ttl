@@ -1,0 +1,231 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/CodeSystem/data-access-categories> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "data-access-categories"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehealth.hl7.org/CodeSystem/data-access-categories</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">summary<a name=\"data-access-categories-summary\"> </a></td><td>Summary</td><td>Patient Summary</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-name<a name=\"data-access-categories-sm-name\"> </a></td><td>Name</td><td>The patient's name</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-address<a name=\"data-access-categories-sm-address\"> </a></td><td>Address</td><td>The patient's address</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-contact-info<a name=\"data-access-categories-sm-contact-info\"> </a></td><td>Contact Info</td><td>Contact information of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-contact-persons<a name=\"data-access-categories-sm-contact-persons\"> </a></td><td>Contact Persons (Non-Therapeutic)</td><td>Non-therapeutic contact persons associated with the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-gmf-holder<a name=\"data-access-categories-sm-gmf-holder\"> </a></td><td>GMF Holder</td><td>The patient's General Medical File (GMF) holder</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-healthcare-professionals<a name=\"data-access-categories-sm-healthcare-professionals\"> </a></td><td>Healthcare Professionals Treating the Patient</td><td>Healthcare professionals involved in treating the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-adverse-drug-reaction<a name=\"data-access-categories-sm-adverse-drug-reaction\"> </a></td><td>Adverse Drug Reaction</td><td>Recorded adverse drug reactions of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-allergies<a name=\"data-access-categories-sm-allergies\"> </a></td><td>Allergies</td><td>Known allergies of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-social-risks<a name=\"data-access-categories-sm-social-risks\"> </a></td><td>Social Risks</td><td>Social risks or determinants of health associated with the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-risks<a name=\"data-access-categories-sm-risks\"> </a></td><td>Risks</td><td>Medical risks or potential health risks associated with the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-problems<a name=\"data-access-categories-sm-problems\"> </a></td><td>Problems</td><td>Health problems or conditions of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-treatments<a name=\"data-access-categories-sm-treatments\"> </a></td><td>Treatments</td><td>Medical treatments received by the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sm-patient-will<a name=\"data-access-categories-sm-patient-will\"> </a></td><td>Patient Will</td><td>Patient's expressed wishes or advance directives</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">med-scheme1<a name=\"data-access-categories-med-scheme1\"> </a></td><td>Medication Scheme</td><td>Medication Scheme</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">med-scheme2<a name=\"data-access-categories-med-scheme2\"> </a></td><td>Medication Scheme 2</td><td>Medication Scheme 2</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">med-prescription<a name=\"data-access-categories-med-prescription\"> </a></td><td>Medication Prescription</td><td>Medication Prescription</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">lab-result<a name=\"data-access-categories-lab-result\"> </a></td><td>Lab results</td><td>Lab results</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">discharge-report<a name=\"data-access-categories-discharge-report\"> </a></td><td>Discharge Report/Contact Report</td><td>Summary data related to discharge report or contact report</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  dr-physician<a name=\"data-access-categories-dr-physician\"> </a></td><td>Physician</td><td>Summary data related to physicians</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-p-all-depts<a name=\"data-access-categories-dr-p-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to physicians in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-p-psy<a name=\"data-access-categories-dr-p-psy\"> </a></td><td>Psychiatry</td><td>Summary data related to physicians in psychiatry department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-p-gyn<a name=\"data-access-categories-dr-p-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to physicians in gynecology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-p-max-fac<a name=\"data-access-categories-dr-p-max-fac\"> </a></td><td>Maxillofacial</td><td>Summary data related to physicians in maxillofacial department</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  dr-nurse<a name=\"data-access-categories-dr-nurse\"> </a></td><td>Nurse</td><td>Summary data related to nurses</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-n-all-depts<a name=\"data-access-categories-dr-n-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to nurses in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-n-gyn<a name=\"data-access-categories-dr-n-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to nurses in gynecology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-n-psy<a name=\"data-access-categories-dr-n-psy\"> </a></td><td>Psychiatry</td><td>Summary data related to nurses in psychiatry department</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  midwife<a name=\"data-access-categories-midwife\"> </a></td><td>Midwife</td><td>Summary data related to midwives</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-m-all-depts<a name=\"data-access-categories-dr-m-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to midwives in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    dr-m-gyn<a name=\"data-access-categories-dr-m-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to midwives in gynecology department</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">result-of-other-technical-examination<a name=\"data-access-categories-result-of-other-technical-examination\"> </a></td><td>Result of Other Technical Examination</td><td>Summary data related to the results of other technical examinations</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  oth-physician<a name=\"data-access-categories-oth-physician\"> </a></td><td>Physician</td><td>Summary data related to physicians</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-all-depts<a name=\"data-access-categories-oth-p-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to physicians in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-psy<a name=\"data-access-categories-oth-p-psy\"> </a></td><td>Psychiatry</td><td>Summary data related to physicians in psychiatry department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-rx<a name=\"data-access-categories-oth-p-rx\"> </a></td><td>Radiology</td><td>Summary data related to physicians in radiology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-nucl-med<a name=\"data-access-categories-oth-p-nucl-med\"> </a></td><td>Nuclear Medicine</td><td>Summary data related to physicians in nuclear medicine department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-cardio<a name=\"data-access-categories-oth-p-cardio\"> </a></td><td>Cardiology</td><td>Summary data related to physicians in cardiology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-gyn<a name=\"data-access-categories-oth-p-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to physicians in gynecology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-dental<a name=\"data-access-categories-oth-p-dental\"> </a></td><td>Dental</td><td>Summary data related to physicians in dental department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-stoma<a name=\"data-access-categories-oth-p-stoma\"> </a></td><td>Stomatology</td><td>Summary data related to physicians in stomatology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    oth-p-max-fac<a name=\"data-access-categories-oth-p-max-fac\"> </a></td><td>Maxillofacial</td><td>Summary data related to physicians in maxillofacial department</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">notes-journal<a name=\"data-access-categories-notes-journal\"> </a></td><td>Journal Notes</td><td>Journal Notes</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehealth.hl7.org/CodeSystem/data-access-categories"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "DataAccessCategories"] ; # 
+  fhir:title [ fhir:v "Data Access categories"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-04T21:22:42+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Data Access categories - the rolestypes of data that are associated with specifica authorization rules"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "43"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "summary" ] ;
+     fhir:display [ fhir:v "Summary" ] ;
+     fhir:definition [ fhir:v "Patient Summary" ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "sm-name" ] ;
+       fhir:display [ fhir:v "Name" ] ;
+       fhir:definition [ fhir:v "The patient's name" ]
+     ] [
+       fhir:code [ fhir:v "sm-address" ] ;
+       fhir:display [ fhir:v "Address" ] ;
+       fhir:definition [ fhir:v "The patient's address" ]
+     ] [
+       fhir:code [ fhir:v "sm-contact-info" ] ;
+       fhir:display [ fhir:v "Contact Info" ] ;
+       fhir:definition [ fhir:v "Contact information of the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-contact-persons" ] ;
+       fhir:display [ fhir:v "Contact Persons (Non-Therapeutic)" ] ;
+       fhir:definition [ fhir:v "Non-therapeutic contact persons associated with the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-gmf-holder" ] ;
+       fhir:display [ fhir:v "GMF Holder" ] ;
+       fhir:definition [ fhir:v "The patient's General Medical File (GMF) holder" ]
+     ] [
+       fhir:code [ fhir:v "sm-healthcare-professionals" ] ;
+       fhir:display [ fhir:v "Healthcare Professionals Treating the Patient" ] ;
+       fhir:definition [ fhir:v "Healthcare professionals involved in treating the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-adverse-drug-reaction" ] ;
+       fhir:display [ fhir:v "Adverse Drug Reaction" ] ;
+       fhir:definition [ fhir:v "Recorded adverse drug reactions of the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-allergies" ] ;
+       fhir:display [ fhir:v "Allergies" ] ;
+       fhir:definition [ fhir:v "Known allergies of the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-social-risks" ] ;
+       fhir:display [ fhir:v "Social Risks" ] ;
+       fhir:definition [ fhir:v "Social risks or determinants of health associated with the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-risks" ] ;
+       fhir:display [ fhir:v "Risks" ] ;
+       fhir:definition [ fhir:v "Medical risks or potential health risks associated with the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-problems" ] ;
+       fhir:display [ fhir:v "Problems" ] ;
+       fhir:definition [ fhir:v "Health problems or conditions of the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-treatments" ] ;
+       fhir:display [ fhir:v "Treatments" ] ;
+       fhir:definition [ fhir:v "Medical treatments received by the patient" ]
+     ] [
+       fhir:code [ fhir:v "sm-patient-will" ] ;
+       fhir:display [ fhir:v "Patient Will" ] ;
+       fhir:definition [ fhir:v "Patient's expressed wishes or advance directives" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "med-scheme1" ] ;
+     fhir:display [ fhir:v "Medication Scheme" ] ;
+     fhir:definition [ fhir:v "Medication Scheme" ]
+  ] [
+     fhir:code [ fhir:v "med-scheme2" ] ;
+     fhir:display [ fhir:v "Medication Scheme 2" ] ;
+     fhir:definition [ fhir:v "Medication Scheme 2" ]
+  ] [
+     fhir:code [ fhir:v "med-prescription" ] ;
+     fhir:display [ fhir:v "Medication Prescription" ] ;
+     fhir:definition [ fhir:v "Medication Prescription" ]
+  ] [
+     fhir:code [ fhir:v "lab-result" ] ;
+     fhir:display [ fhir:v "Lab results" ] ;
+     fhir:definition [ fhir:v "Lab results" ]
+  ] [
+     fhir:code [ fhir:v "discharge-report" ] ;
+     fhir:display [ fhir:v "Discharge Report/Contact Report" ] ;
+     fhir:definition [ fhir:v "Summary data related to discharge report or contact report" ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "dr-physician" ] ;
+       fhir:display [ fhir:v "Physician" ] ;
+       fhir:definition [ fhir:v "Summary data related to physicians" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "dr-p-all-depts" ] ;
+         fhir:display [ fhir:v "All Departments" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in all departments" ]
+       ] [
+         fhir:code [ fhir:v "dr-p-psy" ] ;
+         fhir:display [ fhir:v "Psychiatry" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in psychiatry department" ]
+       ] [
+         fhir:code [ fhir:v "dr-p-gyn" ] ;
+         fhir:display [ fhir:v "Gynecology" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in gynecology department" ]
+       ] [
+         fhir:code [ fhir:v "dr-p-max-fac" ] ;
+         fhir:display [ fhir:v "Maxillofacial" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in maxillofacial department" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "dr-nurse" ] ;
+       fhir:display [ fhir:v "Nurse" ] ;
+       fhir:definition [ fhir:v "Summary data related to nurses" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "dr-n-all-depts" ] ;
+         fhir:display [ fhir:v "All Departments" ] ;
+         fhir:definition [ fhir:v "Summary data related to nurses in all departments" ]
+       ] [
+         fhir:code [ fhir:v "dr-n-gyn" ] ;
+         fhir:display [ fhir:v "Gynecology" ] ;
+         fhir:definition [ fhir:v "Summary data related to nurses in gynecology department" ]
+       ] [
+         fhir:code [ fhir:v "dr-n-psy" ] ;
+         fhir:display [ fhir:v "Psychiatry" ] ;
+         fhir:definition [ fhir:v "Summary data related to nurses in psychiatry department" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "midwife" ] ;
+       fhir:display [ fhir:v "Midwife" ] ;
+       fhir:definition [ fhir:v "Summary data related to midwives" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "dr-m-all-depts" ] ;
+         fhir:display [ fhir:v "All Departments" ] ;
+         fhir:definition [ fhir:v "Summary data related to midwives in all departments" ]
+       ] [
+         fhir:code [ fhir:v "dr-m-gyn" ] ;
+         fhir:display [ fhir:v "Gynecology" ] ;
+         fhir:definition [ fhir:v "Summary data related to midwives in gynecology department" ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "result-of-other-technical-examination" ] ;
+     fhir:display [ fhir:v "Result of Other Technical Examination" ] ;
+     fhir:definition [ fhir:v "Summary data related to the results of other technical examinations" ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "oth-physician" ] ;
+       fhir:display [ fhir:v "Physician" ] ;
+       fhir:definition [ fhir:v "Summary data related to physicians" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "oth-p-all-depts" ] ;
+         fhir:display [ fhir:v "All Departments" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in all departments" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-psy" ] ;
+         fhir:display [ fhir:v "Psychiatry" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in psychiatry department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-rx" ] ;
+         fhir:display [ fhir:v "Radiology" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in radiology department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-nucl-med" ] ;
+         fhir:display [ fhir:v "Nuclear Medicine" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in nuclear medicine department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-cardio" ] ;
+         fhir:display [ fhir:v "Cardiology" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in cardiology department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-gyn" ] ;
+         fhir:display [ fhir:v "Gynecology" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in gynecology department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-dental" ] ;
+         fhir:display [ fhir:v "Dental" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in dental department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-stoma" ] ;
+         fhir:display [ fhir:v "Stomatology" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in stomatology department" ]
+       ] [
+         fhir:code [ fhir:v "oth-p-max-fac" ] ;
+         fhir:display [ fhir:v "Maxillofacial" ] ;
+         fhir:definition [ fhir:v "Summary data related to physicians in maxillofacial department" ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "notes-journal" ] ;
+     fhir:display [ fhir:v "Journal Notes" ] ;
+     fhir:definition [ fhir:v "Journal Notes" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

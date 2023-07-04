@@ -1,0 +1,169 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "data-access-roles",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehealth.hl7.org/CodeSystem/data-access-roles</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">patient<a name=\"data-access-roles-patient\"> </a></td><td>Patient</td><td>A person receiving healthcare services</td></tr><tr><td style=\"white-space:nowrap\">physician<a name=\"data-access-roles-physician\"> </a></td><td>Physician</td><td>A medical doctor</td></tr><tr><td style=\"white-space:nowrap\">nurse<a name=\"data-access-roles-nurse\"> </a></td><td>Nurse</td><td>A healthcare professional responsible for patient care</td></tr><tr><td style=\"white-space:nowrap\">psychiatric-nurse<a name=\"data-access-roles-psychiatric-nurse\"> </a></td><td>Psychiatric Nurse</td><td>A nurse specialized in psychiatric care</td></tr><tr><td style=\"white-space:nowrap\">practical-nurse<a name=\"data-access-roles-practical-nurse\"> </a></td><td>Practical Nurse</td><td>A nurse responsible for practical patient care</td></tr><tr><td style=\"white-space:nowrap\">midwife<a name=\"data-access-roles-midwife\"> </a></td><td>Midwife</td><td>A healthcare professional specializing in childbirth</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-office<a name=\"data-access-roles-pharmacist-office\"> </a></td><td>Pharmacist in Office</td><td>A pharmacist working in an office setting</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-hospital<a name=\"data-access-roles-pharmacist-hospital\"> </a></td><td>Pharmacist in Hospital</td><td>A pharmacist working in a hospital setting</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-clinical-biologist<a name=\"data-access-roles-pharmacist-clinical-biologist\"> </a></td><td>Pharmacist Clinical Biologist</td><td>A pharmacist specializing in clinical biology</td></tr><tr><td style=\"white-space:nowrap\">dentist<a name=\"data-access-roles-dentist\"> </a></td><td>Dentist</td><td>A healthcare professional specializing in dental care</td></tr><tr><td style=\"white-space:nowrap\">physiotherapist<a name=\"data-access-roles-physiotherapist\"> </a></td><td>Physiotherapist</td><td>A healthcare professional providing physical therapy</td></tr><tr><td style=\"white-space:nowrap\">clinical-psychologist<a name=\"data-access-roles-clinical-psychologist\"> </a></td><td>Clinical Psychologist</td><td>A psychologist providing clinical services</td></tr><tr><td style=\"white-space:nowrap\">clinical-orthopedagogist<a name=\"data-access-roles-clinical-orthopedagogist\"> </a></td><td>Clinical Orthopedagogist</td><td>A professional specializing in clinical orthopedagogy</td></tr><tr><td style=\"white-space:nowrap\">pharmacist-technical-assistant<a name=\"data-access-roles-pharmacist-technical-assistant\"> </a></td><td>Pharmacist Technical Assistant</td><td>An assistant to a pharmacist in technical roles</td></tr><tr><td style=\"white-space:nowrap\">audiologist<a name=\"data-access-roles-audiologist\"> </a></td><td>Audiologist</td><td>A healthcare professional specializing in hearing and balance disorders</td></tr><tr><td style=\"white-space:nowrap\">audicien<a name=\"data-access-roles-audicien\"> </a></td><td>Audicien</td><td>A professional specializing in hearing aids</td></tr><tr><td style=\"white-space:nowrap\">truss-maker<a name=\"data-access-roles-truss-maker\"> </a></td><td>Truss Maker</td><td>A specialist in manufacturing trusses</td></tr><tr><td style=\"white-space:nowrap\">dietician<a name=\"data-access-roles-dietician\"> </a></td><td>Dietician</td><td>A healthcare professional specializing in nutrition and dietetics</td></tr><tr><td style=\"white-space:nowrap\">occupational-therapist<a name=\"data-access-roles-occupational-therapist\"> </a></td><td>Occupational Therapist</td><td>A healthcare professional providing occupational therapy</td></tr><tr><td style=\"white-space:nowrap\">lab-technologist<a name=\"data-access-roles-lab-technologist\"> </a></td><td>Lab Technologist</td><td>A technologist working in a laboratory setting</td></tr><tr><td style=\"white-space:nowrap\">logopedist<a name=\"data-access-roles-logopedist\"> </a></td><td>Logopedist</td><td>A healthcare professional specializing in speech therapy</td></tr><tr><td style=\"white-space:nowrap\">orthopedist<a name=\"data-access-roles-orthopedist\"> </a></td><td>Orthopedist</td><td>A medical doctor specializing in orthopedic care</td></tr><tr><td style=\"white-space:nowrap\">podologist<a name=\"data-access-roles-podologist\"> </a></td><td>Podologist</td><td>A healthcare professional specializing in foot care</td></tr><tr><td style=\"white-space:nowrap\">dental-hygienist<a name=\"data-access-roles-dental-hygienist\"> </a></td><td>Dental Hygienist</td><td>A dental professional specializing in oral hygiene</td></tr><tr><td style=\"white-space:nowrap\">imaging-technologist<a name=\"data-access-roles-imaging-technologist\"> </a></td><td>Imaging Technologist</td><td>A technologist specializing in medical imaging</td></tr></table></div>"
+  },
+  "url" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+  "version" : "1.0.0",
+  "name" : "DataAccessRoles",
+  "title" : "Data Access Roles",
+  "status" : "active",
+  "date" : "2023-07-04T21:22:42+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Data Access roles - the roles that are associated with authorization to consult the data",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 25,
+  "concept" : [{
+    "code" : "patient",
+    "display" : "Patient",
+    "definition" : "A person receiving healthcare services"
+  },
+  {
+    "code" : "physician",
+    "display" : "Physician",
+    "definition" : "A medical doctor"
+  },
+  {
+    "code" : "nurse",
+    "display" : "Nurse",
+    "definition" : "A healthcare professional responsible for patient care"
+  },
+  {
+    "code" : "psychiatric-nurse",
+    "display" : "Psychiatric Nurse",
+    "definition" : "A nurse specialized in psychiatric care"
+  },
+  {
+    "code" : "practical-nurse",
+    "display" : "Practical Nurse",
+    "definition" : "A nurse responsible for practical patient care"
+  },
+  {
+    "code" : "midwife",
+    "display" : "Midwife",
+    "definition" : "A healthcare professional specializing in childbirth"
+  },
+  {
+    "code" : "pharmacist-office",
+    "display" : "Pharmacist in Office",
+    "definition" : "A pharmacist working in an office setting"
+  },
+  {
+    "code" : "pharmacist-hospital",
+    "display" : "Pharmacist in Hospital",
+    "definition" : "A pharmacist working in a hospital setting"
+  },
+  {
+    "code" : "pharmacist-clinical-biologist",
+    "display" : "Pharmacist Clinical Biologist",
+    "definition" : "A pharmacist specializing in clinical biology"
+  },
+  {
+    "code" : "dentist",
+    "display" : "Dentist",
+    "definition" : "A healthcare professional specializing in dental care"
+  },
+  {
+    "code" : "physiotherapist",
+    "display" : "Physiotherapist",
+    "definition" : "A healthcare professional providing physical therapy"
+  },
+  {
+    "code" : "clinical-psychologist",
+    "display" : "Clinical Psychologist",
+    "definition" : "A psychologist providing clinical services"
+  },
+  {
+    "code" : "clinical-orthopedagogist",
+    "display" : "Clinical Orthopedagogist",
+    "definition" : "A professional specializing in clinical orthopedagogy"
+  },
+  {
+    "code" : "pharmacist-technical-assistant",
+    "display" : "Pharmacist Technical Assistant",
+    "definition" : "An assistant to a pharmacist in technical roles"
+  },
+  {
+    "code" : "audiologist",
+    "display" : "Audiologist",
+    "definition" : "A healthcare professional specializing in hearing and balance disorders"
+  },
+  {
+    "code" : "audicien",
+    "display" : "Audicien",
+    "definition" : "A professional specializing in hearing aids"
+  },
+  {
+    "code" : "truss-maker",
+    "display" : "Truss Maker",
+    "definition" : "A specialist in manufacturing trusses"
+  },
+  {
+    "code" : "dietician",
+    "display" : "Dietician",
+    "definition" : "A healthcare professional specializing in nutrition and dietetics"
+  },
+  {
+    "code" : "occupational-therapist",
+    "display" : "Occupational Therapist",
+    "definition" : "A healthcare professional providing occupational therapy"
+  },
+  {
+    "code" : "lab-technologist",
+    "display" : "Lab Technologist",
+    "definition" : "A technologist working in a laboratory setting"
+  },
+  {
+    "code" : "logopedist",
+    "display" : "Logopedist",
+    "definition" : "A healthcare professional specializing in speech therapy"
+  },
+  {
+    "code" : "orthopedist",
+    "display" : "Orthopedist",
+    "definition" : "A medical doctor specializing in orthopedic care"
+  },
+  {
+    "code" : "podologist",
+    "display" : "Podologist",
+    "definition" : "A healthcare professional specializing in foot care"
+  },
+  {
+    "code" : "dental-hygienist",
+    "display" : "Dental Hygienist",
+    "definition" : "A dental professional specializing in oral hygiene"
+  },
+  {
+    "code" : "imaging-technologist",
+    "display" : "Imaging Technologist",
+    "definition" : "A technologist specializing in medical imaging"
+  }]
+}

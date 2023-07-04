@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>MY-IG\Access Control - FHIR v5.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/hl7-be.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+  <!-- My Organization -->
+  <!-- active -->
+
+  <!-- no fitting stylesheet found (status/publisher) -->
+
+<link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+        
+  <!-- My Organization -->
+  <!-- active -->
+
+<div id="ig-nav">
+  <a no-external="true" id="hl7-logo" href="https://hl7belgium.org">
+    <img src="assets/images/hl7be-logo-header.png" alt="HL7 Belgium" height="65"/>
+  </a>
+</div>
+<div id="fhir-nav">
+  <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+</div>
+<div id="ig-search">
+  <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+</div>
+
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - STU1
+
+
+
+  <img src="assets/images/001.svg" alt="International flag" title="International" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li><a name="l180">​</a>
+    <a href="access-control.md">Functional</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+  <li>
+    <a href="changes.html">Changes</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Access Control</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1, published by My Organization. This is not an authorized publication; it is the continuous build for version 1.0.0). This version is based on the current content of <a href="https://github.com/hl7-be/data-access">https://github.com/hl7-be/data-access</a> and changes regularly. See the <a href="http://example.com/fhir/example/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Access Control</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+<h1 id="access-control-based-on-roles-and-data-categories">Access Control Based on Roles and Data Categories</h1>
+
+<p>A first stage to implement access control can be based on coded roles and data categories. The combination of these attributes can help determine the applicable set of rules for access control.</p>
+
+<p>These rules can be expressed using the FHIR Permission resource.</p>
+
+<h2 id="access-control-diagram">Access Control Diagram</h2>
+
+<figure>
+    <!-- ?xml version="1.0" encoding="us-ascii" standalone="no"? --><svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" viewBox="0 0 770 565" zoomAndPan="magnify" preserveAspectRatio="none" width="770px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:770px;height:565px;background:#FFFFFF;" version="1.1" height="565px"><defs/><g>  <!-- cluster S --><g id="cluster_S"><path d="M8.5,6 L110.5,6 A3.75,3.75 0 0 1 113,8.5 L120,28.2969 L760.5,28.2969 A2.5,2.5 0 0 1 763,30.7969 L763,320.5 A2.5,2.5 0 0 1 760.5,323 L8.5,323 A2.5,2.5 0 0 1 6,320.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " style="stroke:#000000;stroke-width:1.5;" fill="none"/><line y1="28.2969" x1="6" y2="28.2969" style="stroke:#000000;stroke-width:1.5;" x2="120"/><text font-weight="bold" lengthAdjust="spacing" x="10" font-size="14" textLength="101" y="20.9951" font-family="sans-serif" fill="#000000">Specification</text></g><g id="cluster_##3"><rect rx="2.5" ry="2.5" width="200" x="539" y="49" style="stroke:none;stroke-width:1.0;" fill="none" height="250"/></g><g id="cluster_##6"><rect rx="2.5" ry="2.5" width="235" x="280" y="81" style="stroke:none;stroke-width:1.0;" fill="none" height="167"/></g>  <!-- cluster AR --><g id="cluster_AR"><path d="M314.5,113 L420.5,113 A3.75,3.75 0 0 1 423,115.5 L430,135.2969 L480.5,135.2969 A2.5,2.5 0 0 1 483,137.7969 L483,213.5 A2.5,2.5 0 0 1 480.5,216 L314.5,216 A2.5,2.5 0 0 1 312,213.5 L312,115.5 A2.5,2.5 0 0 1 314.5,113 " style="stroke:#000000;stroke-width:1.5;" fill="none"/><line y1="135.2969" x1="312" y2="135.2969" style="stroke:#000000;stroke-width:1.5;" x2="430"/><text font-weight="bold" lengthAdjust="spacing" x="316" font-size="14" textLength="105" y="127.9951" font-family="sans-serif" fill="#000000">Access Rules</text></g><g id="cluster_##10"><rect rx="2.5" ry="2.5" width="226" x="30" y="57.5" style="stroke:none;stroke-width:1.0;" fill="none" height="233"/></g>  <!-- cluster I --><g id="cluster_I"><polygon style="stroke:#181818;stroke-width:1.0;" fill="none" points="144,357,154,347,660,347,660,538,650,548,144,548,144,357"/><line y1="357" x1="650" y2="347" style="stroke:#181818;stroke-width:1.0;" x2="660"/><line y1="357" x1="144" y2="357" style="stroke:#181818;stroke-width:1.0;" x2="650"/><line y1="357" x1="650" y2="548" style="stroke:#181818;stroke-width:1.0;" x2="650"/><text font-weight="bold" lengthAdjust="spacing" x="337.5" font-size="14" textLength="121" y="372.9951" font-family="sans-serif" fill="#000000">Implementation</text></g>  <!-- cluster D1 --><g id="cluster_D1"><rect rx="2.5" ry="2.5" width="85" x="543" y="417" style="stroke:none;stroke-width:1.0;" fill="none" height="85"/><text font-weight="bold" lengthAdjust="spacing" x="583" font-size="14" textLength="5" y="431.9951" font-family="sans-serif" fill="#000000">&nbsp;</text></g>  <!-- cluster D2 --><g id="cluster_D2"><rect rx="2.5" ry="2.5" width="229" x="274" y="403" style="stroke:none;stroke-width:1.0;" fill="none" height="113"/><text font-weight="bold" lengthAdjust="spacing" x="386" font-size="14" textLength="5" y="417.9951" font-family="sans-serif" fill="#000000">&nbsp;</text></g>  <!-- cluster D3 --><g id="cluster_D3"><rect rx="2.5" ry="2.5" width="74" x="168" y="411.5" style="stroke:none;stroke-width:1.0;" fill="none" height="96"/><text font-weight="bold" lengthAdjust="spacing" x="202.5" font-size="14" textLength="5" y="426.4951" font-family="sans-serif" fill="#000000">&nbsp;</text></g>  <!-- class RR --><g id="elem_RR"><rect codeLine="27" rx="2.5" ry="2.5" width="169" x="554.5" y="65" style="stroke:#505090;stroke-width:0.5;" id="RR" fill="#C2F0FF" height="217.5625"/><rect rx="2.5" ry="2.5" width="169" x="554.5" y="65" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="26.2969"/><rect width="169" x="554.5" y="88.7969" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="2.5"/><rect codeLine="27" rx="2.5" ry="2.5" width="169" x="554.5" y="65" style="stroke:#505090;stroke-width:0.5;" id="RR" fill="none" height="217.5625"/><text font-weight="bold" lengthAdjust="spacing" x="617.5" font-size="14" textLength="43" y="82.9951" font-family="sans-serif" fill="#000000">Roles</text><line y1="91.2969" x1="555.5" y2="91.2969" style="stroke:#505090;stroke-width:0.5;" x2="722.5"/><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="48" y="114.292" font-family="sans-serif" fill="#000000">patient</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="64" y="130.5889" font-family="sans-serif" fill="#000000">physician</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="40" y="146.8857" font-family="sans-serif" fill="#000000">nurse</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="118" y="163.1826" font-family="sans-serif" fill="#000000">psychiatric-nurse</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="102" y="179.4795" font-family="sans-serif" fill="#000000">practical-nurse</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="52" y="195.7764" font-family="sans-serif" fill="#000000">midwife</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="118" y="212.0732" font-family="sans-serif" fill="#000000">pharmacist-office</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="135" y="228.3701" font-family="sans-serif" fill="#000000">pharmacist-hospital</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="48" y="244.667" font-family="sans-serif" fill="#000000">dentist</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="106" y="260.9639" font-family="sans-serif" fill="#000000">physiotherapist</text><text lengthAdjust="spacing" x="576.5" font-size="14" textLength="12" y="277.2607" font-family="sans-serif" fill="#000000">...</text><rect width="2" x="569.5" y="108.4453" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="109.4453" x1="562.5" y2="109.4453" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="101.2969" x1="562.5" y2="109.4453" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="124.7422" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="125.7422" x1="562.5" y2="125.7422" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="109.4453" x1="562.5" y2="125.7422" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="141.0391" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="142.0391" x1="562.5" y2="142.0391" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="125.7422" x1="562.5" y2="142.0391" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="157.3359" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="158.3359" x1="562.5" y2="158.3359" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="142.0391" x1="562.5" y2="158.3359" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="173.6328" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="174.6328" x1="562.5" y2="174.6328" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="158.3359" x1="562.5" y2="174.6328" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="189.9297" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="190.9297" x1="562.5" y2="190.9297" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="174.6328" x1="562.5" y2="190.9297" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="206.2266" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="207.2266" x1="562.5" y2="207.2266" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="190.9297" x1="562.5" y2="207.2266" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="222.5234" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="223.5234" x1="562.5" y2="223.5234" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="207.2266" x1="562.5" y2="223.5234" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="238.8203" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="239.8203" x1="562.5" y2="239.8203" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="223.5234" x1="562.5" y2="239.8203" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="255.1172" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="256.1172" x1="562.5" y2="256.1172" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="239.8203" x1="562.5" y2="256.1172" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/><rect width="2" x="569.5" y="271.4141" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="272.4141" x1="562.5" y2="272.4141" style="stroke:#000000;stroke-width:1.0;" x2="570.5"/><line y1="256.1172" x1="562.5" y2="272.4141" style="stroke:#000000;stroke-width:1.0;" x2="562.5"/></g>  <!-- entity P --><g id="elem_P"><path d="M355,158.5 L355,189.7969 A2.5,2.5 0 0 0 357.5,192.2969 L456.5,192.2969 A2.5,2.5 0 0 0 459,189.7969 L459,166 L449,156 L357.5,156 A2.5,2.5 0 0 0 355,158.5 " style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"/><path d="M449,156 L449,163.5 A2.5,2.5 0 0 0 451.5,166 L459,166 " style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"/><text lengthAdjust="spacing" x="365" font-size="14" textLength="84" y="178.9951" font-family="sans-serif" fill="#000000">Permissions</text></g>  <!-- class DC --><g id="elem_DC"><rect codeLine="63" rx="2.5" ry="2.5" width="195" x="45.5" y="73.5" style="stroke:#505090;stroke-width:0.5;" id="DC" fill="#C2F0FF" height="201.2656"/><rect rx="2.5" ry="2.5" width="195" x="45.5" y="73.5" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="26.2969"/><rect width="195" x="45.5" y="97.2969" style="stroke:#87CEEB;stroke-width:0.5;" fill="#87CEEB" height="2.5"/><rect codeLine="63" rx="2.5" ry="2.5" width="195" x="45.5" y="73.5" style="stroke:#505090;stroke-width:0.5;" id="DC" fill="none" height="201.2656"/><text font-weight="bold" lengthAdjust="spacing" x="80" font-size="14" textLength="126" y="91.4951" font-family="sans-serif" fill="#000000">Data Categories</text><line y1="99.7969" x1="46.5" y2="99.7969" style="stroke:#505090;stroke-width:0.5;" x2="239.5"/><text lengthAdjust="spacing" x="67.5" font-size="14" textLength="63" y="122.792" font-family="sans-serif" fill="#000000">summary</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="82" y="139.0889" font-family="sans-serif" fill="#000000">contact-info</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="153" y="155.3857" font-family="sans-serif" fill="#000000">adverse-drug-reaction</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="57" y="171.6826" font-family="sans-serif" fill="#000000">allergies</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="76" y="187.9795" font-family="sans-serif" fill="#000000">social-risks</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="32" y="204.2764" font-family="sans-serif" fill="#000000">risks</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="65" y="220.5732" font-family="sans-serif" fill="#000000">problems</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="76" y="236.8701" font-family="sans-serif" fill="#000000">treatments</text><text lengthAdjust="spacing" x="75.5" font-size="14" textLength="73" y="253.167" font-family="sans-serif" fill="#000000">patient-will</text><text lengthAdjust="spacing" x="67.5" font-size="14" textLength="137" y="269.4639" font-family="sans-serif" fill="#000000">medication-scheme</text><rect width="2" x="60.5" y="116.9453" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="117.9453" x1="53.5" y2="117.9453" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><line y1="109.7969" x1="53.5" y2="117.9453" style="stroke:#000000;stroke-width:1.0;" x2="53.5"/><rect width="2" x="68.5" y="133.2422" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="134.2422" x1="61.5" y2="134.2422" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="117.9453" x1="61.5" y2="134.2422" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="149.5391" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="150.5391" x1="61.5" y2="150.5391" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="134.2422" x1="61.5" y2="150.5391" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="165.8359" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="166.8359" x1="61.5" y2="166.8359" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="150.5391" x1="61.5" y2="166.8359" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="182.1328" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="183.1328" x1="61.5" y2="183.1328" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="166.8359" x1="61.5" y2="183.1328" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="198.4297" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="199.4297" x1="61.5" y2="199.4297" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="183.1328" x1="61.5" y2="199.4297" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="214.7266" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="215.7266" x1="61.5" y2="215.7266" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="199.4297" x1="61.5" y2="215.7266" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="231.0234" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="232.0234" x1="61.5" y2="232.0234" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="215.7266" x1="61.5" y2="232.0234" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="68.5" y="247.3203" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="248.3203" x1="61.5" y2="248.3203" style="stroke:#000000;stroke-width:1.0;" x2="69.5"/><line y1="232.0234" x1="61.5" y2="248.3203" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><rect width="2" x="60.5" y="263.6172" style="stroke:#000000;stroke-width:1.0;" fill="#C2F0FF" height="2"/><line y1="264.6172" x1="53.5" y2="264.6172" style="stroke:#000000;stroke-width:1.0;" x2="61.5"/><line y1="117.9453" x1="53.5" y2="264.6172" style="stroke:#000000;stroke-width:1.0;" x2="53.5"/></g>  <!-- entity Req --><g id="elem_Req"><ellipse cx="595" cy="469" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"/><text lengthAdjust="spacing" x="565.5" font-size="14" textLength="59" y="498.9951" font-family="sans-serif" fill="#000000">Request</text></g>  <!-- entity AC --><g id="elem_AC"><rect rx="2.5" ry="2.5" width="144" x="335" y="446" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1" height="46.2969"/><rect width="15" x="459" y="451" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1" height="10"/><rect width="4" x="457" y="453" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1" height="2"/><rect width="4" x="457" y="457" style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1" height="2"/><text lengthAdjust="spacing" x="350" font-size="14" textLength="104" y="478.9951" font-family="sans-serif" fill="#000000">Access Control</text></g>  <!-- entity DB --><g id="elem_DB"><path d="M184.5,456.5 C184.5,446.5 205,446.5 205,446.5 C205,446.5 225.5,446.5 225.5,456.5 L225.5,481.7969 C225.5,491.7969 205,491.7969 205,491.7969 C205,491.7969 184.5,491.7969 184.5,481.7969 L184.5,456.5 " style="stroke:#181818;stroke-width:0.5;" fill="#F1F1F1"/><path d="M184.5,456.5 C184.5,466.5 205,466.5 205,466.5 C205,466.5 225.5,466.5 225.5,456.5 " style="stroke:#181818;stroke-width:0.5;" fill="none"/><text lengthAdjust="spacing" x="194.5" font-size="14" textLength="21" y="483.4951" font-family="sans-serif" fill="#000000">DB</text></g>  <!-- link RR to AR -->  <!-- link AR to DC -->  <!-- link AR to P -->  <!-- link Req to AC --><g id="link_Req_AC"><path codeLine="105" d="M585.93,474 C585.93,474 484.11,474 484.11,474 " style="stroke:#181818;stroke-width:1.0;" id="Req-to-AC" fill="none"/><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="479.11,474,488.11,478,484.11,474,488.11,470,479.11,474"/><text lengthAdjust="spacing" x="526.02" font-size="13" textLength="8" y="470.0669" font-family="sans-serif" fill="#000000">&nbsp;&nbsp;</text></g>  <!-- link AC to DB --><g id="link_AC_DB"><path codeLine="106" d="M334.93,454 C334.93,454 230.64,454 230.64,454 " style="stroke:#181818;stroke-width:1.0;" id="AC-to-DB" fill="none"/><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="225.64,454,234.64,458,230.64,454,234.64,450,225.64,454"/><text lengthAdjust="spacing" x="269.79" font-size="13" textLength="12" y="450.0669" font-family="sans-serif" fill="#000000">&nbsp;&nbsp;&nbsp;</text></g>  <!-- link D1 to D2 -->  <!-- link D2 to D2 -->  <!-- link DC to DB --><g id="link_DC_DB"><path codeLine="117" d="M205,274.7 C205,336.29 205,410.02 205,446.41 " style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;" id="DC-DB" fill="none"/></g>  <!-- link RR to Req --><g id="link_RR_Req"><path codeLine="118" d="M595,283.01 C595,351.94 595,432.94 595,459.82 " style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;" id="RR-Req" fill="none"/></g>  <!-- link P to AC --><g id="link_P_AC"><path codeLine="119" d="M407,192.01 C407,192.01 407,440.67 407,440.67 " style="stroke:#181818;stroke-width:1.0;" id="P-to-AC" fill="none"/><polygon style="stroke:#181818;stroke-width:1.0;" fill="#181818" points="407,445.67,411,436.67,407,440.67,403,436.67,407,445.67"/></g></g></svg>
+  <figcaption>Access Control Diagram</figcaption>
+</figure>
+
+<p>The diagram above illustrates how coded roles and data categories are used in the access access control rules. This layer enforces the defined rules to regulate access to healthcare data.</p>
+
+<h2 id="role-based-access-control">Role-Based Access Control</h2>
+
+<p>Roles represent the different roles or positions within the healthcare system, concretely the role of the person that wishes to access data. Some examples of roles include physician, nurse, pharmacist, and patient. Each role is associated with certain permissions and restrictions for accessing specific data categories.</p>
+
+<h2 id="data-categories">Data Categories</h2>
+
+<p>Data categories represent different types of healthcare data that require access control. These are for example the CareSets, or specific portions of the CareSets, or even more specific data objects.
+Examples of data categories include patient information, medical records, test results, and treatment plans. Each data category may have different sensitivity levels and access requirements.</p>
+
+<h2 id="permission-resource">Permission Resource</h2>
+
+<p>The FHIR Permission resource can be used to capture the rules for access control based on the combination of roles and data categories. It specifies the permissions granted or denied for each role-data category combination. These permissions can include read, write, create, or delete access.</p>
+
+<h2 id="relationship-with-consent">Relationship with Consent</h2>
+
+<p>It’s important to note that access control based on roles and data categories is separate from the mechanism of consent. While consent allows individuals to provide or refuse permission to share their healthcare data, access control rules may override or void certain consents.</p>
+
+<p>For example, even if a patient refuses to disclose their tuberculosis (TB) status, the legal framework may mandate the reporting of TB cases as a mandatory disease. In such cases, the access control rules may take precedence over individual consent.</p>
+
+<p>Implementing a robust access control system based on roles and data categories ensures proper management of healthcare data while considering legal requirements, privacy concerns, and the specific needs of different roles within the healthcare ecosystem.
+These mechanisms proposed in this specification are some foundational aspects that can be used in such robust access control.</p>
+
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.com/committees">My Organization</a>.  Package my-ig#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jul 4, 2023 21:22+0000">2023-07-04</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+              <!-- My Organization -->
+  <!-- active -->
+
+Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a> |
+                 
+                 <a style="color: var(--footer-hyperlink-text-color)" href="http://example.com/fhir/example/history.html" target="_blank">Version History</a> |
+                 <a rel="license" style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/license.html"><img src="assets/images/cc-by.png" alt="CC-BY" style="border-style: none;" height="17"/></a>
+  <!-- no fitting stylesheet found (status/publisher) -->
+
+
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

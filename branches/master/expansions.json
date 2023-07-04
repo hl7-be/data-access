@@ -1,8 +1,420 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c7571a8a-8144-49ae-b7d0-ee7e870676b0",
+  "id" : "8b6424b1-9325-46e7-b982-117bfcbf2686",
   "meta" : {
-    "lastUpdated" : "2023-07-03T13:03:48.337+00:00"
+    "lastUpdated" : "2023-07-04T21:22:42.144+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/data-access-categories-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 43 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-access-categories.html\">Data Access categories v1.0.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td><b>Level</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-summary\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-summary\">summary</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Summary</td><td><div><p>Patient Summary</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-name\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-name\">sm-name</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Name</td><td><div><p>The patient's name</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-address\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-address\">sm-address</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Address</td><td><div><p>The patient's address</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-contact-info\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-contact-info\">sm-contact-info</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Contact Info</td><td><div><p>Contact information of the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-contact-persons\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-contact-persons\">sm-contact-persons</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Contact Persons (Non-Therapeutic)</td><td><div><p>Non-therapeutic contact persons associated with the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-gmf-holder\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-gmf-holder\">sm-gmf-holder</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>GMF Holder</td><td><div><p>The patient's General Medical File (GMF) holder</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-healthcare-professionals\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-healthcare-professionals\">sm-healthcare-professionals</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Healthcare Professionals Treating the Patient</td><td><div><p>Healthcare professionals involved in treating the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-adverse-drug-reaction\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-adverse-drug-reaction\">sm-adverse-drug-reaction</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Adverse Drug Reaction</td><td><div><p>Recorded adverse drug reactions of the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-allergies\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-allergies\">sm-allergies</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Allergies</td><td><div><p>Known allergies of the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-social-risks\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-social-risks\">sm-social-risks</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Social Risks</td><td><div><p>Social risks or determinants of health associated with the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-risks\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-risks\">sm-risks</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Risks</td><td><div><p>Medical risks or potential health risks associated with the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-problems\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-problems\">sm-problems</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Problems</td><td><div><p>Health problems or conditions of the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-treatments\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-treatments\">sm-treatments</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Treatments</td><td><div><p>Medical treatments received by the patient</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-sm-patient-will\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-sm-patient-will\">sm-patient-will</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Patient Will</td><td><div><p>Patient's expressed wishes or advance directives</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-med-scheme1\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-med-scheme1\">med-scheme1</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Medication Scheme</td><td><div><p>Medication Scheme</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-med-scheme2\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-med-scheme2\">med-scheme2</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Medication Scheme 2</td><td><div><p>Medication Scheme 2</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-med-prescription\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-med-prescription\">med-prescription</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Medication Prescription</td><td><div><p>Medication Prescription</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-lab-result\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-lab-result\">lab-result</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Lab results</td><td><div><p>Lab results</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-discharge-report\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-discharge-report\">discharge-report</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Discharge Report/Contact Report</td><td><div><p>Summary data related to discharge report or contact report</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-physician\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-physician\">dr-physician</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Physician</td><td><div><p>Summary data related to physicians</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-p-all-depts\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-p-all-depts\">dr-p-all-depts</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>All Departments</td><td><div><p>Summary data related to physicians in all departments</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-p-psy\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-p-psy\">dr-p-psy</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Psychiatry</td><td><div><p>Summary data related to physicians in psychiatry department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-p-gyn\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-p-gyn\">dr-p-gyn</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Gynecology</td><td><div><p>Summary data related to physicians in gynecology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-p-max-fac\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-p-max-fac\">dr-p-max-fac</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Maxillofacial</td><td><div><p>Summary data related to physicians in maxillofacial department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-nurse\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-nurse\">dr-nurse</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Nurse</td><td><div><p>Summary data related to nurses</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-n-all-depts\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-n-all-depts\">dr-n-all-depts</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>All Departments</td><td><div><p>Summary data related to nurses in all departments</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-n-gyn\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-n-gyn\">dr-n-gyn</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Gynecology</td><td><div><p>Summary data related to nurses in gynecology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-n-psy\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-n-psy\">dr-n-psy</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Psychiatry</td><td><div><p>Summary data related to nurses in psychiatry department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-midwife\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-midwife\">midwife</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Midwife</td><td><div><p>Summary data related to midwives</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-m-all-depts\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-m-all-depts\">dr-m-all-depts</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>All Departments</td><td><div><p>Summary data related to midwives in all departments</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-dr-m-gyn\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-dr-m-gyn\">dr-m-gyn</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Gynecology</td><td><div><p>Summary data related to midwives in gynecology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-result-of-other-technical-examination\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-result-of-other-technical-examination\">result-of-other-technical-examination</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Result of Other Technical Examination</td><td><div><p>Summary data related to the results of other technical examinations</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-physician\"> </a>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-physician\">oth-physician</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Physician</td><td><div><p>Summary data related to physicians</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-all-depts\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-all-depts\">oth-p-all-depts</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>All Departments</td><td><div><p>Summary data related to physicians in all departments</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-psy\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-psy\">oth-p-psy</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Psychiatry</td><td><div><p>Summary data related to physicians in psychiatry department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-rx\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-rx\">oth-p-rx</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Radiology</td><td><div><p>Summary data related to physicians in radiology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-nucl-med\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-nucl-med\">oth-p-nucl-med</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Nuclear Medicine</td><td><div><p>Summary data related to physicians in nuclear medicine department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-cardio\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-cardio\">oth-p-cardio</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Cardiology</td><td><div><p>Summary data related to physicians in cardiology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-gyn\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-gyn\">oth-p-gyn</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Gynecology</td><td><div><p>Summary data related to physicians in gynecology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-dental\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-dental\">oth-p-dental</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Dental</td><td><div><p>Summary data related to physicians in dental department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-stoma\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-stoma\">oth-p-stoma</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Stomatology</td><td><div><p>Summary data related to physicians in stomatology department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-oth-p-max-fac\"> </a>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-oth-p-max-fac\">oth-p-max-fac</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Maxillofacial</td><td><div><p>Summary data related to physicians in maxillofacial department</p>\n</div></td></tr><tr><td><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-categories-notes-journal\"> </a>1</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-data-access-categories.html#data-access-categories-notes-journal\">notes-journal</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-categories</td><td>Journal Notes</td><td><div><p>Journal Notes</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/data-access-categories-vs",
+      "version" : "1.0.0",
+      "name" : "DataAccessCategoriesVS",
+      "title" : "Data Access Categories Value Set",
+      "status" : "active",
+      "date" : "2023-07-04T21:22:42+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:f986162c-e56a-4925-af52-70b168f8b168",
+        "timestamp" : "2023-07-04T21:22:59+00:00",
+        "total" : 43,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://ehealth.hl7.org/CodeSystem/data-access-categories|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "summary",
+          "display" : "Summary",
+          "contains" : [{
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-name",
+            "display" : "Name"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-address",
+            "display" : "Address"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-contact-info",
+            "display" : "Contact Info"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-contact-persons",
+            "display" : "Contact Persons (Non-Therapeutic)"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-gmf-holder",
+            "display" : "GMF Holder"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-healthcare-professionals",
+            "display" : "Healthcare Professionals Treating the Patient"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-adverse-drug-reaction",
+            "display" : "Adverse Drug Reaction"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-allergies",
+            "display" : "Allergies"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-social-risks",
+            "display" : "Social Risks"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-risks",
+            "display" : "Risks"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-problems",
+            "display" : "Problems"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-treatments",
+            "display" : "Treatments"
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "sm-patient-will",
+            "display" : "Patient Will"
+          }]
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "med-scheme1",
+          "display" : "Medication Scheme"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "med-scheme2",
+          "display" : "Medication Scheme 2"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "med-prescription",
+          "display" : "Medication Prescription"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "lab-result",
+          "display" : "Lab results"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "discharge-report",
+          "display" : "Discharge Report/Contact Report",
+          "contains" : [{
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "dr-physician",
+            "display" : "Physician",
+            "contains" : [{
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-p-all-depts",
+              "display" : "All Departments"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-p-psy",
+              "display" : "Psychiatry"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-p-gyn",
+              "display" : "Gynecology"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-p-max-fac",
+              "display" : "Maxillofacial"
+            }]
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "dr-nurse",
+            "display" : "Nurse",
+            "contains" : [{
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-n-all-depts",
+              "display" : "All Departments"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-n-gyn",
+              "display" : "Gynecology"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-n-psy",
+              "display" : "Psychiatry"
+            }]
+          },
+          {
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "midwife",
+            "display" : "Midwife",
+            "contains" : [{
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-m-all-depts",
+              "display" : "All Departments"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "dr-m-gyn",
+              "display" : "Gynecology"
+            }]
+          }]
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "result-of-other-technical-examination",
+          "display" : "Result of Other Technical Examination",
+          "contains" : [{
+            "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+            "code" : "oth-physician",
+            "display" : "Physician",
+            "contains" : [{
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-all-depts",
+              "display" : "All Departments"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-psy",
+              "display" : "Psychiatry"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-rx",
+              "display" : "Radiology"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-nucl-med",
+              "display" : "Nuclear Medicine"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-cardio",
+              "display" : "Cardiology"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-gyn",
+              "display" : "Gynecology"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-dental",
+              "display" : "Dental"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-stoma",
+              "display" : "Stomatology"
+            },
+            {
+              "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+              "code" : "oth-p-max-fac",
+              "display" : "Maxillofacial"
+            }]
+          }]
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+          "code" : "notes-journal",
+          "display" : "Journal Notes"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/data-read-roles-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 25 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-access-roles.html\">Data Access Roles v1.0.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-patient\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-patient\">patient</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Patient</td><td><div><p>A person receiving healthcare services</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-physician\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-physician\">physician</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Physician</td><td><div><p>A medical doctor</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-nurse\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-nurse\">nurse</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Nurse</td><td><div><p>A healthcare professional responsible for patient care</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-psychiatric-nurse\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-psychiatric-nurse\">psychiatric-nurse</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Psychiatric Nurse</td><td><div><p>A nurse specialized in psychiatric care</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-practical-nurse\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-practical-nurse\">practical-nurse</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Practical Nurse</td><td><div><p>A nurse responsible for practical patient care</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-midwife\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-midwife\">midwife</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Midwife</td><td><div><p>A healthcare professional specializing in childbirth</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-pharmacist-office\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-pharmacist-office\">pharmacist-office</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Pharmacist in Office</td><td><div><p>A pharmacist working in an office setting</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-pharmacist-hospital\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-pharmacist-hospital\">pharmacist-hospital</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Pharmacist in Hospital</td><td><div><p>A pharmacist working in a hospital setting</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-pharmacist-clinical-biologist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-pharmacist-clinical-biologist\">pharmacist-clinical-biologist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Pharmacist Clinical Biologist</td><td><div><p>A pharmacist specializing in clinical biology</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-dentist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-dentist\">dentist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Dentist</td><td><div><p>A healthcare professional specializing in dental care</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-physiotherapist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-physiotherapist\">physiotherapist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Physiotherapist</td><td><div><p>A healthcare professional providing physical therapy</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-clinical-psychologist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-clinical-psychologist\">clinical-psychologist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Clinical Psychologist</td><td><div><p>A psychologist providing clinical services</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-clinical-orthopedagogist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-clinical-orthopedagogist\">clinical-orthopedagogist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Clinical Orthopedagogist</td><td><div><p>A professional specializing in clinical orthopedagogy</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-pharmacist-technical-assistant\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-pharmacist-technical-assistant\">pharmacist-technical-assistant</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Pharmacist Technical Assistant</td><td><div><p>An assistant to a pharmacist in technical roles</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-audiologist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-audiologist\">audiologist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Audiologist</td><td><div><p>A healthcare professional specializing in hearing and balance disorders</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-audicien\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-audicien\">audicien</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Audicien</td><td><div><p>A professional specializing in hearing aids</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-truss-maker\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-truss-maker\">truss-maker</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Truss Maker</td><td><div><p>A specialist in manufacturing trusses</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-dietician\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-dietician\">dietician</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Dietician</td><td><div><p>A healthcare professional specializing in nutrition and dietetics</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-occupational-therapist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-occupational-therapist\">occupational-therapist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Occupational Therapist</td><td><div><p>A healthcare professional providing occupational therapy</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-lab-technologist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-lab-technologist\">lab-technologist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Lab Technologist</td><td><div><p>A technologist working in a laboratory setting</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-logopedist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-logopedist\">logopedist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Logopedist</td><td><div><p>A healthcare professional specializing in speech therapy</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-orthopedist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-orthopedist\">orthopedist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Orthopedist</td><td><div><p>A medical doctor specializing in orthopedic care</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-podologist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-podologist\">podologist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Podologist</td><td><div><p>A healthcare professional specializing in foot care</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-dental-hygienist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-dental-hygienist\">dental-hygienist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Dental Hygienist</td><td><div><p>A dental professional specializing in oral hygiene</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehealth.hl7.org-CodeSystem-data-access-roles-imaging-technologist\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-access-roles.html#data-access-roles-imaging-technologist\">imaging-technologist</a></td><td>http://ehealth.hl7.org/CodeSystem/data-access-roles</td><td>Imaging Technologist</td><td><div><p>A technologist specializing in medical imaging</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/data-read-roles-vs",
+      "version" : "1.0.0",
+      "name" : "DataReadRolesVS",
+      "title" : "Data Read Value Set",
+      "status" : "active",
+      "date" : "2023-07-04T21:22:42+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:31ca291e-7ee7-451f-ab44-82fb61297497",
+        "timestamp" : "2023-07-04T21:23:00+00:00",
+        "total" : 25,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://ehealth.hl7.org/CodeSystem/data-access-roles|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "patient",
+          "display" : "Patient"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "physician",
+          "display" : "Physician"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "nurse",
+          "display" : "Nurse"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "psychiatric-nurse",
+          "display" : "Psychiatric Nurse"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "practical-nurse",
+          "display" : "Practical Nurse"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "midwife",
+          "display" : "Midwife"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "pharmacist-office",
+          "display" : "Pharmacist in Office"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "pharmacist-hospital",
+          "display" : "Pharmacist in Hospital"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "pharmacist-clinical-biologist",
+          "display" : "Pharmacist Clinical Biologist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "dentist",
+          "display" : "Dentist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "physiotherapist",
+          "display" : "Physiotherapist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "clinical-psychologist",
+          "display" : "Clinical Psychologist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "clinical-orthopedagogist",
+          "display" : "Clinical Orthopedagogist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "pharmacist-technical-assistant",
+          "display" : "Pharmacist Technical Assistant"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "audiologist",
+          "display" : "Audiologist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "audicien",
+          "display" : "Audicien"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "truss-maker",
+          "display" : "Truss Maker"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "dietician",
+          "display" : "Dietician"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "occupational-therapist",
+          "display" : "Occupational Therapist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "lab-technologist",
+          "display" : "Lab Technologist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "logopedist",
+          "display" : "Logopedist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "orthopedist",
+          "display" : "Orthopedist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "podologist",
+          "display" : "Podologist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "dental-hygienist",
+          "display" : "Dental Hygienist"
+        },
+        {
+          "system" : "http://ehealth.hl7.org/CodeSystem/data-access-roles",
+          "code" : "imaging-technologist",
+          "display" : "Imaging Technologist"
+        }]
+      }
+    }
+  }]
 }

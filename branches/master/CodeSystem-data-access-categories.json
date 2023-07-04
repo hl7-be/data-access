@@ -1,0 +1,259 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "data-access-categories",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehealth.hl7.org/CodeSystem/data-access-categories</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">summary<a name=\"data-access-categories-summary\"> </a></td><td>Summary</td><td>Patient Summary</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-name<a name=\"data-access-categories-sm-name\"> </a></td><td>Name</td><td>The patient's name</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-address<a name=\"data-access-categories-sm-address\"> </a></td><td>Address</td><td>The patient's address</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-contact-info<a name=\"data-access-categories-sm-contact-info\"> </a></td><td>Contact Info</td><td>Contact information of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-contact-persons<a name=\"data-access-categories-sm-contact-persons\"> </a></td><td>Contact Persons (Non-Therapeutic)</td><td>Non-therapeutic contact persons associated with the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-gmf-holder<a name=\"data-access-categories-sm-gmf-holder\"> </a></td><td>GMF Holder</td><td>The patient's General Medical File (GMF) holder</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-healthcare-professionals<a name=\"data-access-categories-sm-healthcare-professionals\"> </a></td><td>Healthcare Professionals Treating the Patient</td><td>Healthcare professionals involved in treating the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-adverse-drug-reaction<a name=\"data-access-categories-sm-adverse-drug-reaction\"> </a></td><td>Adverse Drug Reaction</td><td>Recorded adverse drug reactions of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-allergies<a name=\"data-access-categories-sm-allergies\"> </a></td><td>Allergies</td><td>Known allergies of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-social-risks<a name=\"data-access-categories-sm-social-risks\"> </a></td><td>Social Risks</td><td>Social risks or determinants of health associated with the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-risks<a name=\"data-access-categories-sm-risks\"> </a></td><td>Risks</td><td>Medical risks or potential health risks associated with the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-problems<a name=\"data-access-categories-sm-problems\"> </a></td><td>Problems</td><td>Health problems or conditions of the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-treatments<a name=\"data-access-categories-sm-treatments\"> </a></td><td>Treatments</td><td>Medical treatments received by the patient</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0sm-patient-will<a name=\"data-access-categories-sm-patient-will\"> </a></td><td>Patient Will</td><td>Patient's expressed wishes or advance directives</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">med-scheme1<a name=\"data-access-categories-med-scheme1\"> </a></td><td>Medication Scheme</td><td>Medication Scheme</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">med-scheme2<a name=\"data-access-categories-med-scheme2\"> </a></td><td>Medication Scheme 2</td><td>Medication Scheme 2</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">med-prescription<a name=\"data-access-categories-med-prescription\"> </a></td><td>Medication Prescription</td><td>Medication Prescription</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">lab-result<a name=\"data-access-categories-lab-result\"> </a></td><td>Lab results</td><td>Lab results</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">discharge-report<a name=\"data-access-categories-discharge-report\"> </a></td><td>Discharge Report/Contact Report</td><td>Summary data related to discharge report or contact report</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0dr-physician<a name=\"data-access-categories-dr-physician\"> </a></td><td>Physician</td><td>Summary data related to physicians</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-p-all-depts<a name=\"data-access-categories-dr-p-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to physicians in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-p-psy<a name=\"data-access-categories-dr-p-psy\"> </a></td><td>Psychiatry</td><td>Summary data related to physicians in psychiatry department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-p-gyn<a name=\"data-access-categories-dr-p-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to physicians in gynecology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-p-max-fac<a name=\"data-access-categories-dr-p-max-fac\"> </a></td><td>Maxillofacial</td><td>Summary data related to physicians in maxillofacial department</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0dr-nurse<a name=\"data-access-categories-dr-nurse\"> </a></td><td>Nurse</td><td>Summary data related to nurses</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-n-all-depts<a name=\"data-access-categories-dr-n-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to nurses in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-n-gyn<a name=\"data-access-categories-dr-n-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to nurses in gynecology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-n-psy<a name=\"data-access-categories-dr-n-psy\"> </a></td><td>Psychiatry</td><td>Summary data related to nurses in psychiatry department</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0midwife<a name=\"data-access-categories-midwife\"> </a></td><td>Midwife</td><td>Summary data related to midwives</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-m-all-depts<a name=\"data-access-categories-dr-m-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to midwives in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0dr-m-gyn<a name=\"data-access-categories-dr-m-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to midwives in gynecology department</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">result-of-other-technical-examination<a name=\"data-access-categories-result-of-other-technical-examination\"> </a></td><td>Result of Other Technical Examination</td><td>Summary data related to the results of other technical examinations</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">\u00a0\u00a0oth-physician<a name=\"data-access-categories-oth-physician\"> </a></td><td>Physician</td><td>Summary data related to physicians</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-all-depts<a name=\"data-access-categories-oth-p-all-depts\"> </a></td><td>All Departments</td><td>Summary data related to physicians in all departments</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-psy<a name=\"data-access-categories-oth-p-psy\"> </a></td><td>Psychiatry</td><td>Summary data related to physicians in psychiatry department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-rx<a name=\"data-access-categories-oth-p-rx\"> </a></td><td>Radiology</td><td>Summary data related to physicians in radiology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-nucl-med<a name=\"data-access-categories-oth-p-nucl-med\"> </a></td><td>Nuclear Medicine</td><td>Summary data related to physicians in nuclear medicine department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-cardio<a name=\"data-access-categories-oth-p-cardio\"> </a></td><td>Cardiology</td><td>Summary data related to physicians in cardiology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-gyn<a name=\"data-access-categories-oth-p-gyn\"> </a></td><td>Gynecology</td><td>Summary data related to physicians in gynecology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-dental<a name=\"data-access-categories-oth-p-dental\"> </a></td><td>Dental</td><td>Summary data related to physicians in dental department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-stoma<a name=\"data-access-categories-oth-p-stoma\"> </a></td><td>Stomatology</td><td>Summary data related to physicians in stomatology department</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">\u00a0\u00a0\u00a0\u00a0oth-p-max-fac<a name=\"data-access-categories-oth-p-max-fac\"> </a></td><td>Maxillofacial</td><td>Summary data related to physicians in maxillofacial department</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">notes-journal<a name=\"data-access-categories-notes-journal\"> </a></td><td>Journal Notes</td><td>Journal Notes</td></tr></table></div>"
+  },
+  "url" : "http://ehealth.hl7.org/CodeSystem/data-access-categories",
+  "version" : "1.0.0",
+  "name" : "DataAccessCategories",
+  "title" : "Data Access categories",
+  "status" : "active",
+  "date" : "2023-07-04T21:22:42+00:00",
+  "publisher" : "My Organization",
+  "contact" : [{
+    "name" : "My Organization",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.com/committees"
+    },
+    {
+      "system" : "email",
+      "value" : "my-group@example.com"
+    }]
+  },
+  {
+    "name" : "Bob Smith",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "bobsmith@example.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Data Access categories - the rolestypes of data that are associated with specifica authorization rules",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 43,
+  "concept" : [{
+    "code" : "summary",
+    "display" : "Summary",
+    "definition" : "Patient Summary",
+    "concept" : [{
+      "code" : "sm-name",
+      "display" : "Name",
+      "definition" : "The patient's name"
+    },
+    {
+      "code" : "sm-address",
+      "display" : "Address",
+      "definition" : "The patient's address"
+    },
+    {
+      "code" : "sm-contact-info",
+      "display" : "Contact Info",
+      "definition" : "Contact information of the patient"
+    },
+    {
+      "code" : "sm-contact-persons",
+      "display" : "Contact Persons (Non-Therapeutic)",
+      "definition" : "Non-therapeutic contact persons associated with the patient"
+    },
+    {
+      "code" : "sm-gmf-holder",
+      "display" : "GMF Holder",
+      "definition" : "The patient's General Medical File (GMF) holder"
+    },
+    {
+      "code" : "sm-healthcare-professionals",
+      "display" : "Healthcare Professionals Treating the Patient",
+      "definition" : "Healthcare professionals involved in treating the patient"
+    },
+    {
+      "code" : "sm-adverse-drug-reaction",
+      "display" : "Adverse Drug Reaction",
+      "definition" : "Recorded adverse drug reactions of the patient"
+    },
+    {
+      "code" : "sm-allergies",
+      "display" : "Allergies",
+      "definition" : "Known allergies of the patient"
+    },
+    {
+      "code" : "sm-social-risks",
+      "display" : "Social Risks",
+      "definition" : "Social risks or determinants of health associated with the patient"
+    },
+    {
+      "code" : "sm-risks",
+      "display" : "Risks",
+      "definition" : "Medical risks or potential health risks associated with the patient"
+    },
+    {
+      "code" : "sm-problems",
+      "display" : "Problems",
+      "definition" : "Health problems or conditions of the patient"
+    },
+    {
+      "code" : "sm-treatments",
+      "display" : "Treatments",
+      "definition" : "Medical treatments received by the patient"
+    },
+    {
+      "code" : "sm-patient-will",
+      "display" : "Patient Will",
+      "definition" : "Patient's expressed wishes or advance directives"
+    }]
+  },
+  {
+    "code" : "med-scheme1",
+    "display" : "Medication Scheme",
+    "definition" : "Medication Scheme"
+  },
+  {
+    "code" : "med-scheme2",
+    "display" : "Medication Scheme 2",
+    "definition" : "Medication Scheme 2"
+  },
+  {
+    "code" : "med-prescription",
+    "display" : "Medication Prescription",
+    "definition" : "Medication Prescription"
+  },
+  {
+    "code" : "lab-result",
+    "display" : "Lab results",
+    "definition" : "Lab results"
+  },
+  {
+    "code" : "discharge-report",
+    "display" : "Discharge Report/Contact Report",
+    "definition" : "Summary data related to discharge report or contact report",
+    "concept" : [{
+      "code" : "dr-physician",
+      "display" : "Physician",
+      "definition" : "Summary data related to physicians",
+      "concept" : [{
+        "code" : "dr-p-all-depts",
+        "display" : "All Departments",
+        "definition" : "Summary data related to physicians in all departments"
+      },
+      {
+        "code" : "dr-p-psy",
+        "display" : "Psychiatry",
+        "definition" : "Summary data related to physicians in psychiatry department"
+      },
+      {
+        "code" : "dr-p-gyn",
+        "display" : "Gynecology",
+        "definition" : "Summary data related to physicians in gynecology department"
+      },
+      {
+        "code" : "dr-p-max-fac",
+        "display" : "Maxillofacial",
+        "definition" : "Summary data related to physicians in maxillofacial department"
+      }]
+    },
+    {
+      "code" : "dr-nurse",
+      "display" : "Nurse",
+      "definition" : "Summary data related to nurses",
+      "concept" : [{
+        "code" : "dr-n-all-depts",
+        "display" : "All Departments",
+        "definition" : "Summary data related to nurses in all departments"
+      },
+      {
+        "code" : "dr-n-gyn",
+        "display" : "Gynecology",
+        "definition" : "Summary data related to nurses in gynecology department"
+      },
+      {
+        "code" : "dr-n-psy",
+        "display" : "Psychiatry",
+        "definition" : "Summary data related to nurses in psychiatry department"
+      }]
+    },
+    {
+      "code" : "midwife",
+      "display" : "Midwife",
+      "definition" : "Summary data related to midwives",
+      "concept" : [{
+        "code" : "dr-m-all-depts",
+        "display" : "All Departments",
+        "definition" : "Summary data related to midwives in all departments"
+      },
+      {
+        "code" : "dr-m-gyn",
+        "display" : "Gynecology",
+        "definition" : "Summary data related to midwives in gynecology department"
+      }]
+    }]
+  },
+  {
+    "code" : "result-of-other-technical-examination",
+    "display" : "Result of Other Technical Examination",
+    "definition" : "Summary data related to the results of other technical examinations",
+    "concept" : [{
+      "code" : "oth-physician",
+      "display" : "Physician",
+      "definition" : "Summary data related to physicians",
+      "concept" : [{
+        "code" : "oth-p-all-depts",
+        "display" : "All Departments",
+        "definition" : "Summary data related to physicians in all departments"
+      },
+      {
+        "code" : "oth-p-psy",
+        "display" : "Psychiatry",
+        "definition" : "Summary data related to physicians in psychiatry department"
+      },
+      {
+        "code" : "oth-p-rx",
+        "display" : "Radiology",
+        "definition" : "Summary data related to physicians in radiology department"
+      },
+      {
+        "code" : "oth-p-nucl-med",
+        "display" : "Nuclear Medicine",
+        "definition" : "Summary data related to physicians in nuclear medicine department"
+      },
+      {
+        "code" : "oth-p-cardio",
+        "display" : "Cardiology",
+        "definition" : "Summary data related to physicians in cardiology department"
+      },
+      {
+        "code" : "oth-p-gyn",
+        "display" : "Gynecology",
+        "definition" : "Summary data related to physicians in gynecology department"
+      },
+      {
+        "code" : "oth-p-dental",
+        "display" : "Dental",
+        "definition" : "Summary data related to physicians in dental department"
+      },
+      {
+        "code" : "oth-p-stoma",
+        "display" : "Stomatology",
+        "definition" : "Summary data related to physicians in stomatology department"
+      },
+      {
+        "code" : "oth-p-max-fac",
+        "display" : "Maxillofacial",
+        "definition" : "Summary data related to physicians in maxillofacial department"
+      }]
+    }]
+  },
+  {
+    "code" : "notes-journal",
+    "display" : "Journal Notes",
+    "definition" : "Journal Notes"
+  }]
+}

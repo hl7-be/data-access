@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Permission xmlns="http://hl7.org/fhir">
+  <id value="AR1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Permission</b><a name="AR1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Permission &quot;AR1&quot; </p></div><p><b>status</b>: active</p><p><b>combining</b>: deny-unless-permit</p><blockquote><p><b>rule</b></p><p><b>type</b>: permit</p><h3>Data</h3><table class="grid"><tr><td>-</td><td><b>Security</b></td></tr><tr><td>*</td><td>lab-result (Details: [not stated] code lab-result = 'lab-result', stated as 'null')</td></tr></table><h3>Activities</h3><table class="grid"><tr><td>-</td><td><b>Actor</b></td><td><b>Action</b></td></tr><tr><td>*</td><td><span/></td><td>Access <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-consentaction.html">Consent Action Codes</a>#access)</span></td></tr></table></blockquote></div>
+  </text>
+  <status value="active"/>
+  <combining value="deny-unless-permit"/>
+  <rule>
+    <type value="permit"/>
+    <data>
+      <security>
+        <code value="lab-result"/>
+      </security>
+    </data>
+    <activity>
+      <actor>
+        <identifier>
+          <system value="http://matrix.rl/roles"/>
+          <value value="00001NurseRole"/>
+        </identifier>
+      </actor>
+      <action>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/consentaction"/>
+          <code value="access"/>
+        </coding>
+      </action>
+    </activity>
+  </rule>
+</Permission>
